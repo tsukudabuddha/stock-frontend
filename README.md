@@ -1,6 +1,8 @@
 # Stock Frontend
 Simple React app that allows users to enter their initial investment information to see what their portfolio would look like today
 
+[Backend Repo](https://github.com/tsukudabuddha/stock-backend/blob/main/README.md)
+
 ## TODO's
 * Style the Input form
 * Improve grid styling/ sizing
