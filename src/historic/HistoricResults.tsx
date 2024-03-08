@@ -1,12 +1,11 @@
-import { AllocationPerformance } from './Historic'
 import { Fragment } from "react/jsx-runtime"
-import { PortfolioResults } from "./Historic"
 import { formatCurrency, formatPercentage } from "./utils"
 import { AgGridReact } from 'ag-grid-react'; // AG Grid Component
 import { ColDef } from 'ag-grid-community'
 import "ag-grid-community/styles/ag-grid.css"; // Mandatory CSS required by the grid
 import "ag-grid-community/styles/ag-theme-quartz.css"; // Optional Theme applied to the grid
 import { ValueFormatterParams } from 'ag-grid-community';
+import { AllocationPerformance, PortfolioResults } from "./types";
 
 type Params = {
   portfolioResults: PortfolioResults

@@ -3,17 +3,7 @@ import { HistoricForm, HistoricFormValues } from "./HistoricForm"
 import { fetchHistoricData } from "../api/fetchHistoricData"
 import { getPortoflioResults } from "./utils"
 import { HistoricResults } from "./HistoricResults"
-
-export type AllocationPerformance = {
-  symbol: string
-  percentageChange: number
-  absoluteChange: number
-}
-
-export type PortfolioResults = {
-  currentValue: number
-  allocationPerformances: AllocationPerformance[]
-}
+import { PortfolioResults } from "./types"
 
 export const Historic = () => {
   // TODO: Add state -- error, loading, loaded. React Query?
