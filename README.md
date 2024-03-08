@@ -4,6 +4,8 @@ Simple React app that allows users to enter their initial investment information
 [Backend Repo](https://github.com/tsukudabuddha/stock-backend/blob/main/README.md)
 
 ## TODO's
+* Validate form properly
+* Handle loading and error states
 * Style the Input form
 * Improve grid styling/ sizing
 * Modify both this and backend repo to support displaying more detailed portfolio info
